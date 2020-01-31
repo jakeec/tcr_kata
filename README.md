@@ -1,3 +1,7 @@
+# tcr_kata
+
+My repo for TCR and TDD katas. I figured I would make it public as the collection of katas that I find and perhaps create may be useful to some people.
+
 # TCR
 
 TCR or **test && commit || revert** is a programming workflow created by Kent Beck. (Original article [here](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864).)

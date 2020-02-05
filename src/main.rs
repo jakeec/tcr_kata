@@ -1,4 +1,5 @@
-mod password_verifier;
+// mod password_verifier;
+mod string_adder;
 mod string_calculator;
 
 fn main() {

@@ -40,6 +40,6 @@ Your error handling is well-received and the rest of your team are happy... unti
 
 ## Part 4
 
-Now that your team is able to subtract numbers the team's velocity goes through the roof and the board of investors are over the moon. Everyone is happy. That is except for Mark. Mark is working on a part of the code that deals with hexadecimal values very frequently and he's getting tired of the tedium of converting the hex values to dec, running the add function and then converting back again. He's asked you to allow the function to accept hex string arguments as well as decimal.
+Now that your team is able to subtract numbers the team's velocity goes through the roof and the board of investors are impressed. Everyone is happy. That is, except for Mark. Mark is working on a part of the code that deals with hexadecimal values very frequently and he's getting tired of the tedium of converting the hex values to dec, running the add function and then converting the result back to hex. He's asked you to allow the function to accept hex string arguments as well as decimal.
 
-You must now update your function to accept strings that start with `"0x"`, and if they do, apply the addition as usual but this time return the result in hexadecimal form.
+You must now update your function to accept strings that start with `"0x"`, and if they do, apply the addition as usual but this time return the result in hexadecimal form. So if for example the first argument is hexadecimal but the second is decimal, you should still return the result as hexadecimal, and likewise if the first argument is decimal but the second is hexadecimal. The only case in which you will continue to return decimal values is when both `a` and `b` are in decimal form.
